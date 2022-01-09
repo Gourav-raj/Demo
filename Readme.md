@@ -15,6 +15,3 @@
                       default is med --> move to unstage 
 ## 3 deleting untracked files 
     1 git clean -df
-
-## 4 if want to change the commit but other people might have used previous commit to undo that commit use git revert unlike reset this will change history add and additional commit reverting(undoing) the commit
-    1 git revert <hash>
